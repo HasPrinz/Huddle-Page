@@ -3,6 +3,7 @@ body{
   padding: 0;
   font-size: 18px;
   text-align: center;
+  background-color: white;
 }
 .top-container{
   background-color: hsl(193, 100%, 96%);
@@ -49,6 +50,7 @@ button[name="head-button"] h2{
 - Grayish Blue: hsl(208, 11%, 55%) */
 .first-section{
   padding-top: 160px;
+  margin-bottom: 200px;
 }
 
 .first-section-left{
@@ -91,7 +93,14 @@ button[name="intro-button"]{
 }
 
 /* Second Section  */
-
+.second-section{
+  box-shadow: 0px 0px 30px 3px rgba(148,138,148,0.10);
+  width: 90%;
+  margin: auto;
+  border-radius: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
 .second-section-left img{
   width: 70%;
   margin: 50px 0;
@@ -109,10 +118,18 @@ button[name="intro-button"]{
 .second-section-right p{
   font-family: Open Sans;
   color: hsl(208, 11%, 55%);
-  padding: 0 115px;
+  padding: 0 50px;
 }
 
 /* third section */
+.third-section{
+  box-shadow: 0px 0px 30px 3px rgba(148,138,148,0.10);
+  width: 90%;
+  margin: auto;
+  border-radius: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
 .third-section-left img{
   width: 70%;
   margin: 50px 0;
@@ -130,10 +147,17 @@ button[name="intro-button"]{
 .third-section-right p{
   font-family: Open Sans;
   color: hsl(208, 11%, 55%);
-  padding: 0 115px;
+  padding: 0 50px;
 }
 
 /* fourth section */
+.fourth-section{
+  box-shadow: 0px 0px 30px 3px rgba(148,138,148,0.10);
+  width: 90%;
+  margin: auto;
+  border-radius: 40px;
+  padding-bottom: 40px;;
+}
 .fourth-section-left img{
   width: 70%;
   margin: 50px 0;
@@ -151,11 +175,21 @@ button[name="intro-button"]{
 .fourth-section-right p{
   font-family: Open Sans;
   color: hsl(208, 11%, 55%);
-  padding: 0 115px;
+  padding: 0 50px;
   margin-bottom: 80px;
 }
 
 /* fiifth-section */
+.fifth-section{
+  position: relative;
+  top: 250px;
+  box-shadow: 0px 0px 30px 3px rgba(148,138,148,0.10);
+  width: 95%;
+  margin: auto;
+  border-radius: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
 
 .fifth-section h1{
   margin: 0;
@@ -181,6 +215,7 @@ button[name="fifth-button"]{
 
 /* bottom-container */
 .bottom-container{
+  padding-top: 400px;
   background-color: hsl(192, 100%, 9%);
   color: white;
   font-family: Open Sans;
@@ -253,8 +288,17 @@ svg path{
   .second-section-right{
     order: 1;
     width: 50%;
+    text-align: left;
+    margin: auto;
+    padding-left: 100px;
   }
-
+  .second-section-right h1{
+    padding: 0;
+  }
+  
+  .second-section-right p{
+    padding: 0;
+  }
   /* third section */
   .third-section{
     display: flex;
@@ -266,6 +310,16 @@ svg path{
   .third-section-right{
     order: 2;
     width: 50%;
+    text-align: left;
+    margin: auto;
+    padding-right: 100px;
+  }
+  .third-section-right h1{
+    padding: 0;
+  }
+  
+  .third-section-right p{
+    padding: 0;
   }
 
 
@@ -280,10 +334,24 @@ svg path{
   .fourth-section-right{
     order: 1;
     width: 50%;
+    text-align: left;
+    margin: auto;
+    padding-left: 100px;
+  }
+  .fourth-section-right h1{
+    padding: 0;
+  }
+  
+  .fourth-section-right p{
+    padding: 0;
   }
 
-
   /* footer section */
+  .bottom-logo{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
   .more-info{
     display: flex;
     margin: auto;
@@ -291,7 +359,6 @@ svg path{
   }
 
   .more-info > div{
-    padding-left: 20px;
   }
 
   .contact-info{
