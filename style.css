@@ -33,6 +33,7 @@ button[name="head-button"]{
   background-color: white;
   color: hsl(192, 100%, 9%);
   font-size: 18px;
+  cursor: pointer;
 }
 button[name="head-button"]:hover{
   color: hsla(192, 100%, 9%, 0.481);
